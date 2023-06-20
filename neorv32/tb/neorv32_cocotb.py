@@ -8,7 +8,7 @@ core = glob.glob(dir+"/../rtl/core/*.vhd")
 mem = glob.glob(dir+"/../rtl/core/mem/*.vhd")
 system = glob.glob(dir+"/../rtl/system_integration/*.vhd")
 
-def neorv32_test():
+def test_neorv32():
     run(
         vhdl_sources=[os.path.join(dir,"neorv32_wrapper_pkg.vhd"),
         os.path.join(dir,"neorv32_wrapper.vhd")]
