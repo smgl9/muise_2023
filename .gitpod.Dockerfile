@@ -60,6 +60,6 @@ RUN pip3 install teroshdl
 
 
 RUN wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-4.0.0/riscv32-unknown-elf.gcc-12.1.0.tar.gz \
-    && mkdir /opt/riscv \
-    && tar -xzf riscv32-unknown-elf.gcc-12.1.0.tar.gz -C /opt/riscv/ \
+    && sudo mkdir /opt/riscv \
+    && sudo tar -xzf riscv32-unknown-elf.gcc-12.1.0.tar.gz -C /opt/riscv/ \
     && echo "export PATH=$PATH:/opt/riscv/bin" >> /home/gitpod/.bashrc
