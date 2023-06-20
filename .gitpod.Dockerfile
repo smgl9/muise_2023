@@ -47,8 +47,13 @@ RUN git clone https://github.com/ghdl/ghdl.git --depth=1 --branch ${GHDL_BRANCH}
     && cd .. \
     && rm -rf ghdl
 
-## Install cocotb
+## Install cocotb an dependencies
 RUN pip3 install cocotb
+RUN pip3 install cocotb-test
+RUN pip3 install cocotb_bus
+RUN git clone https://github.com/corna/cocotbext-axi4stream.git \
+    && python3 -m pip install -e cocotbext-axi4stream
+RUN pip install pycryptodome
 
 ## Utils
 RUN pip3 install numpy
@@ -57,8 +62,6 @@ RUN pip3 install numpy
 RUN pip3 install teroshdl
 
 # Install RiscV toolchain
-
-
 RUN wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-4.0.0/riscv32-unknown-elf.gcc-12.1.0.tar.gz \
     && sudo mkdir /opt/riscv \
     && sudo tar -xzf riscv32-unknown-elf.gcc-12.1.0.tar.gz -C /opt/riscv/ \
