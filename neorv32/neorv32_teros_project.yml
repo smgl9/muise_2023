@@ -1,0 +1,260 @@
+toplevel: neorv32_SystemTop_axi4lite
+name: neorv32
+files: 
+  - name: "rtl/core/neorv32_package.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/system_integration/neorv32_SystemTop_axi4lite.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_xirq.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_xip.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_wishbone.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_wdt.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_uart.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_twi.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_trng.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_top.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_sysinfo.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_spi.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_slink.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_sdi.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_pwm.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_onewire.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_neoled.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_mtime.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_imem.entity.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_icache.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_gptmr.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_gpio.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_fifo.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_dmem.entity.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_dma.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_debug_dtm.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_debug_dm.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_dcache.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_regfile.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_decompressor.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_cp_shifter.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_cp_muldiv.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_cp_fpu.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_cp_cond.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_cp_cfu.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_cp_bitmanip.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_control.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_bus.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu_alu.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cpu.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_cfs.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_busswitch.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_bus_keeper.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_boot_rom.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/neorv32_application_image.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/mem/neorv32_imem.legacy.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/mem/neorv32_imem.default.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/mem/neorv32_dmem.legacy.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+  - name: "rtl/core/mem/neorv32_dmem.default.vhd"
+    file_type: "vhdlSource-2008"
+    is_include_file: false
+    include_path: ""
+    logical_name: ""
+tool_options: 
+  vivado: 
+    installation_path: ""
+    part: "xc7a35tcsg324-1"
+    synth: ""
+    pnr: none
+    jtag_freq: ""
+    hw_target: ""
+    linter_options_xvlog: 
+      - ""
+    linter_options_xvhdl: 
+      - ""

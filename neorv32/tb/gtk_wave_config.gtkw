@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Jun 20 13:05:58 2023
+[*]
+[dumpfile] "/home/ismael/git/smgl9/muise_2023/neorv32/tb/wave.ghw"
+[dumpfile_mtime] "Tue Jun 20 13:01:30 2023"
+[dumpfile_size] 4480207
+[savefile] "/home/ismael/git/smgl9/muise_2023/neorv32/tb/gtk_wave_config.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-34.474712 19795000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.neorv32_wrapper.
+[sst_width] 214
+[signals_width] 295
+[sst_expanded] 1
+[sst_vpaned_height] 155
+@22
+#{top.neorv32_wrapper.gpio_o[63:0]} top.neorv32_wrapper.gpio_o[63] top.neorv32_wrapper.gpio_o[62] top.neorv32_wrapper.gpio_o[61] top.neorv32_wrapper.gpio_o[60] top.neorv32_wrapper.gpio_o[59] top.neorv32_wrapper.gpio_o[58] top.neorv32_wrapper.gpio_o[57] top.neorv32_wrapper.gpio_o[56] top.neorv32_wrapper.gpio_o[55] top.neorv32_wrapper.gpio_o[54] top.neorv32_wrapper.gpio_o[53] top.neorv32_wrapper.gpio_o[52] top.neorv32_wrapper.gpio_o[51] top.neorv32_wrapper.gpio_o[50] top.neorv32_wrapper.gpio_o[49] top.neorv32_wrapper.gpio_o[48] top.neorv32_wrapper.gpio_o[47] top.neorv32_wrapper.gpio_o[46] top.neorv32_wrapper.gpio_o[45] top.neorv32_wrapper.gpio_o[44] top.neorv32_wrapper.gpio_o[43] top.neorv32_wrapper.gpio_o[42] top.neorv32_wrapper.gpio_o[41] top.neorv32_wrapper.gpio_o[40] top.neorv32_wrapper.gpio_o[39] top.neorv32_wrapper.gpio_o[38] top.neorv32_wrapper.gpio_o[37] top.neorv32_wrapper.gpio_o[36] top.neorv32_wrapper.gpio_o[35] top.neorv32_wrapper.gpio_o[34] top.neorv32_wrapper.gpio_o[33] top.neorv32_wrapper.gpio_o[32] top.neorv32_wrapper.gpio_o[31] top.neorv32_wrapper.gpio_o[30] top.neorv32_wrapper.gpio_o[29] top.neorv32_wrapper.gpio_o[28] top.neorv32_wrapper.gpio_o[27] top.neorv32_wrapper.gpio_o[26] top.neorv32_wrapper.gpio_o[25] top.neorv32_wrapper.gpio_o[24] top.neorv32_wrapper.gpio_o[23] top.neorv32_wrapper.gpio_o[22] top.neorv32_wrapper.gpio_o[21] top.neorv32_wrapper.gpio_o[20] top.neorv32_wrapper.gpio_o[19] top.neorv32_wrapper.gpio_o[18] top.neorv32_wrapper.gpio_o[17] top.neorv32_wrapper.gpio_o[16] top.neorv32_wrapper.gpio_o[15] top.neorv32_wrapper.gpio_o[14] top.neorv32_wrapper.gpio_o[13] top.neorv32_wrapper.gpio_o[12] top.neorv32_wrapper.gpio_o[11] top.neorv32_wrapper.gpio_o[10] top.neorv32_wrapper.gpio_o[9] top.neorv32_wrapper.gpio_o[8] top.neorv32_wrapper.gpio_o[7] top.neorv32_wrapper.gpio_o[6] top.neorv32_wrapper.gpio_o[5] top.neorv32_wrapper.gpio_o[4] top.neorv32_wrapper.gpio_o[3] top.neorv32_wrapper.gpio_o[2] top.neorv32_wrapper.gpio_o[1] top.neorv32_wrapper.gpio_o[0]
+#{top.neorv32_wrapper.gpio_i[63:0]} top.neorv32_wrapper.gpio_i[63] top.neorv32_wrapper.gpio_i[62] top.neorv32_wrapper.gpio_i[61] top.neorv32_wrapper.gpio_i[60] top.neorv32_wrapper.gpio_i[59] top.neorv32_wrapper.gpio_i[58] top.neorv32_wrapper.gpio_i[57] top.neorv32_wrapper.gpio_i[56] top.neorv32_wrapper.gpio_i[55] top.neorv32_wrapper.gpio_i[54] top.neorv32_wrapper.gpio_i[53] top.neorv32_wrapper.gpio_i[52] top.neorv32_wrapper.gpio_i[51] top.neorv32_wrapper.gpio_i[50] top.neorv32_wrapper.gpio_i[49] top.neorv32_wrapper.gpio_i[48] top.neorv32_wrapper.gpio_i[47] top.neorv32_wrapper.gpio_i[46] top.neorv32_wrapper.gpio_i[45] top.neorv32_wrapper.gpio_i[44] top.neorv32_wrapper.gpio_i[43] top.neorv32_wrapper.gpio_i[42] top.neorv32_wrapper.gpio_i[41] top.neorv32_wrapper.gpio_i[40] top.neorv32_wrapper.gpio_i[39] top.neorv32_wrapper.gpio_i[38] top.neorv32_wrapper.gpio_i[37] top.neorv32_wrapper.gpio_i[36] top.neorv32_wrapper.gpio_i[35] top.neorv32_wrapper.gpio_i[34] top.neorv32_wrapper.gpio_i[33] top.neorv32_wrapper.gpio_i[32] top.neorv32_wrapper.gpio_i[31] top.neorv32_wrapper.gpio_i[30] top.neorv32_wrapper.gpio_i[29] top.neorv32_wrapper.gpio_i[28] top.neorv32_wrapper.gpio_i[27] top.neorv32_wrapper.gpio_i[26] top.neorv32_wrapper.gpio_i[25] top.neorv32_wrapper.gpio_i[24] top.neorv32_wrapper.gpio_i[23] top.neorv32_wrapper.gpio_i[22] top.neorv32_wrapper.gpio_i[21] top.neorv32_wrapper.gpio_i[20] top.neorv32_wrapper.gpio_i[19] top.neorv32_wrapper.gpio_i[18] top.neorv32_wrapper.gpio_i[17] top.neorv32_wrapper.gpio_i[16] top.neorv32_wrapper.gpio_i[15] top.neorv32_wrapper.gpio_i[14] top.neorv32_wrapper.gpio_i[13] top.neorv32_wrapper.gpio_i[12] top.neorv32_wrapper.gpio_i[11] top.neorv32_wrapper.gpio_i[10] top.neorv32_wrapper.gpio_i[9] top.neorv32_wrapper.gpio_i[8] top.neorv32_wrapper.gpio_i[7] top.neorv32_wrapper.gpio_i[6] top.neorv32_wrapper.gpio_i[5] top.neorv32_wrapper.gpio_i[4] top.neorv32_wrapper.gpio_i[3] top.neorv32_wrapper.gpio_i[2] top.neorv32_wrapper.gpio_i[1] top.neorv32_wrapper.gpio_i[0]
+@28
+top.neorv32_wrapper.m_axi_aresetn
+top.neorv32_wrapper.m_axi_aclk
+[pattern_trace] 1
+[pattern_trace] 0
