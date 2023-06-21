@@ -5,7 +5,7 @@ SIM ?= ghdl
 TOPLEVEL_LANG ?= vhdl
 VHDL_SOURCES += $(PWD)/../src/*.vhd
 # TOPLEVEL is the name of the toplevel module in your Verilog or VHDL file
-TOPLEVEL = kit_leds
+TOPLEVEL = kitt_leds
 # MODULE is the basename of the Python test file
 MODULE = kitt_tb
 # Simulator arguments
